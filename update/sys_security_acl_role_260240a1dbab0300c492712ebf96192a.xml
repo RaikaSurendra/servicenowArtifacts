@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-08 17:53:24</sys_created_on>
+        <sys_id>260240a1dbab0300c492712ebf96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_87436_artifacts_artifacts.x_87436_artifacts.artifacts_user</sys_name>
+        <sys_package display_value="Artifacts" source="x_87436_artifacts">d231446ddb6b0300c492712ebf9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Artifacts">d231446ddb6b0300c492712ebf9619bf</sys_scope>
+        <sys_security_acl display_value="x_87436_artifacts_artifacts">2e0240a1dbab0300c492712ebf961925</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_260240a1dbab0300c492712ebf96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-08 17:53:24</sys_updated_on>
+        <sys_user_role display_value="x_87436_artifacts.artifacts_user" name="x_87436_artifacts.artifacts_user">ce02c069db6b0300c492712ebf96199c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
