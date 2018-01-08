@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Artifacts" max_length="40" name="x_87436_artifacts_artifacts" type="collection"/>
+    <element label="Artifacts" max_length="40" name="x_87436_artifacts_artifacts" type="collection">
+        <element label="Abstract" max_length="5000" name="abstract" type="string"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Draft URL" max_length="200" name="draft_url" type="url"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="Estimated Duration" max_length="40" name="estimated_duration" type="glide_duration"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:getNextObjNumber();" dynamic_default_value="8acb83a85f220100a9ad2572f2b47741" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element label="Low" sequence="100" value="low"/>
+                <element label="Urgent" sequence="100" value="urgent"/>
+                <element label="High" sequence="300" value="high"/>
+                <element label="Medium" sequence="400" value="medium"/>
+            </choice>
+        </element>
+        <element label="Published Date" max_length="40" name="published_date" type="glide_date"/>
+        <element label="Published URL" max_length="5000" name="published_url" type="url"/>
+        <element label="Short Description" max_length="500" name="short_description" type="string"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Draft" sequence="100" value="Draft"/>
+                <element label="Published" sequence="200" value="Published"/>
+                <element label="Closed" sequence="300" value="Closed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Blog Post" sequence="100" value="blogpost"/>
+                <element label="Video Post" sequence="200" value="vlogpost"/>
+                <element label="Article" sequence="300" value="articlw"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
 </database>

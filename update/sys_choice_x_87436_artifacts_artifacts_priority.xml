@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_87436_artifacts_artifacts" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_87436_artifacts_artifacts</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-08 18:22:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9a8c069dbab0300c492712ebf9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-08 18:22:14</sys_updated_on>
+            <value>low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Urgent</label>
+            <language>en</language>
+            <name>x_87436_artifacts_artifacts</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-08 18:21:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5588c069dbab0300c492712ebf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-08 18:21:59</sys_updated_on>
+            <value>urgent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_87436_artifacts_artifacts</name>
+            <sequence>300</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-08 18:22:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11b8c8e5dbab0300c492712ebf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-08 18:22:32</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_87436_artifacts_artifacts</name>
+            <sequence>400</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-08 18:22:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ac80469dbab0300c492712ebf9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-08 18:22:51</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <name>x_87436_artifacts_artifacts</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-08 18:21:59</sys_created_on>
+            <sys_id>9d98c069dbab0300c492712ebf96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>priority</sys_name>
+            <sys_package display_value="Artifacts" source="x_87436_artifacts">d231446ddb6b0300c492712ebf9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Artifacts">d231446ddb6b0300c492712ebf9619bf</sys_scope>
+            <sys_update_name>sys_choice_x_87436_artifacts_artifacts_priority</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-08 18:21:59</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
