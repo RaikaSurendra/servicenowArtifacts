@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile display_value="Bitly default_profile">d065582ddbab0300c492712ebf961929</oauth2_profile>
+        <protocol_name/>
+        <qualified_name>Bitly Shorten  [ Default GET ]</qualified_name>
+        <rest_endpoint>https://api-ssl.bitly.com/v3/shorten</rest_endpoint>
+        <rest_message display_value="Bitly Shorten ">6e56dc29dbeb0300c492712ebf961940</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-08 19:23:15</sys_created_on>
+        <sys_id>7296d829dbeb0300c492712ebf9619a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Artifacts" source="x_87436_artifacts">d231446ddb6b0300c492712ebf9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Artifacts">d231446ddb6b0300c492712ebf9619bf</sys_scope>
+        <sys_update_name>sys_rest_message_fn_7296d829dbeb0300c492712ebf9619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-08 20:04:44</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

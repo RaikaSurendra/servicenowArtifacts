@@ -18,6 +18,7 @@
         <element label="Published Date" max_length="40" name="published_date" type="glide_date"/>
         <element label="Published URL" max_length="5000" name="published_url" type="url"/>
         <element label="Short Description" max_length="500" name="short_description" type="string"/>
+        <element label="Short URL" max_length="150" name="short_url" type="url"/>
         <element choice="3" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element label="Draft" sequence="100" value="Draft"/>
